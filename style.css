@@ -1,0 +1,141 @@
+body{
+    font-family: "Karma", sans-serif;
+    line-height: 1.5;
+}
+
+.navbar{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    
+}
+.bars{
+    font-size: 24px;
+}
+.heading h2{
+    font-size: 24px;
+
+}
+.sidebar{
+    display: none; 
+    z-index: 2; 
+    width: 40%; 
+    min-width: 300px;
+}
+
+.main_section{
+    padding: 40px;
+    width: 80%;
+    margin-left: 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.box1{
+    text-align: center;
+}
+
+.box1 img{
+    width: 280px;
+    
+}
+.box1 h3{
+    font-size: 24px;
+}
+.box1 p{
+text-align: center;
+}
+.next_div{
+    width: 80%;
+    margin-left: 8%;
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    border-bottom: 4px solid rgb(204, 202, 202);
+}
+
+.subnext{
+    font-size: 20px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.present{
+    background-color: black;
+    color: white;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.foodman{
+    width: 80%;
+    margin-left: 8%;
+}
+.foodman h2{
+    text-align: center;
+}
+.foodman_intro{
+    width: 80%;
+    margin-left: 8%;
+   text-align: center;
+   line-height: 1.2;
+   border-bottom: 3px solid rgb(208, 203, 203);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+.main-footer{
+    width: 80%;
+   
+    display: flex;
+    justify-content: space-around;
+}
+.foot1{
+    width: 30%;
+}
+.postul{
+ list-style: none;   
+}
+
+.foot2 h3{
+    margin-left: 20px;
+}
+.foot_li{
+    padding: 10px;
+}
+.postul li {
+    display: flex;
+}
+.foot2{
+    width: 30%;
+}
+
+.foot2_head{
+    font-size: 20px;
+    margin-left: 18px;
+}
+.sub{
+    font-size: 15px;
+    margin-left: 8px;
+}
+.foot3{
+    width: 30%;
+}
+.foot3 span{
+    background-color: grey;
+    line-height: 2.5;
+    font-size: 12px;
+    color: aliceblue;
+
+}
+
+#firsttag{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
